@@ -1,5 +1,5 @@
- J.A.R.V.I.S - AI Voice Assistant
-J.A.R.V.I.S is a desktop AI voice assistant built using Python, OpenAI GPT, Speech Recognition, Text-to-Speech, and PyQt6. It provides an interactive graphical interface inspired by futuristic HUD (Heads-Up Display) systems while allowing users to communicate naturally through voice commands.
+ IQ - AI Voice Assistant
+IQ is a desktop AI voice assistant built using Python, OpenAI GPT, Speech Recognition, Text-to-Speech, and PyQt6. It provides an interactive graphical interface inspired by futuristic HUD (Heads-Up Display) systems while allowing users to communicate naturally through voice commands.
 The assistant can perform local system operations, answer general questions using OpenAI, remember user information, and provide weather updates through an online weather API.
 ________________________________________
  Features
@@ -9,7 +9,7 @@ ________________________________________
 •	Supports natural English voice commands.
 ________________________________________
  Text-to-Speech
-Jarvis speaks every response using the pyttsx3 speech engine.
+IQ speaks every response using the pyttsx3 speech engine.
 Features:
 •	Adjustable speaking speed
 •	Offline speech synthesis
@@ -24,10 +24,10 @@ User questions are sent to OpenAI GPT-4o-mini, allowing Jarvis to:
 •	Act like a formal British AI assistant
 ________________________________________
  Memory System
-Jarvis can remember user information.
+IQ can remember user information.
 Example:
 User: Remember my name is John
-Jarvis stores:
+IQ stores:
 {
     "name": "koushik"
 }
