@@ -33,20 +33,20 @@ IQ stores:
 }
 Later:
 User: What is my name?
-Jarvis:
+IQ:
 Your name is koushik.
 The memory is stored locally inside:
 memory.json
 ________________________________________
  Weather Information
-Jarvis can retrieve live weather information using the OpenWeather API.
+IQ can retrieve live weather information using the OpenWeather API.
 Example:
 Weather in London
-Jarvis responds with:
+IQ responds with:
 The temperature in London is 22°C with scattered clouds.
 ________________________________________
  Website Launcher
-Jarvis can instantly open popular websites.
+IQ can instantly open popular websites.
 Supported commands include:
 •	Open Google
 •	Open YouTube
@@ -55,7 +55,7 @@ Supported commands include:
 The websites launch automatically in the default browser.
 ________________________________________
  Local Desktop Commands
-Jarvis can control a few desktop applications.
+IQ can control a few desktop applications.
 Examples:
 •	Open Calculator
 •	Open Notepad
@@ -83,7 +83,7 @@ ________________________________________
 •	Webbrowser
 ________________________________________
  Project Structure
-jarvis/
+IQ/
 │
 ├── main.py              # Core AI assistant logic
 ├── jarvis_gui.py        # GUI implementation
